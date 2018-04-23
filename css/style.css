@@ -115,8 +115,5 @@ header nav {
 /* Boxes */
 
 #boxes {
-    display: inline-block;
-    
     background-color: #666;
-    
 }
