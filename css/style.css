@@ -7,7 +7,7 @@ body {
 /* Global */
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: auto;
     overflow: hidden;
 }
@@ -41,22 +41,21 @@ header #branding {
 
 header #branding h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     margin: 0;
-    margin-top: 35px;
+    margin-top: 18px;
     font-weight: 400;
 }
 
 header nav {
     float: left;
-    margin-top: 20px;
+    margin-top: 0;
 }  
 
 /* Search */
 
 #search {
     float: right;
-    
 }
 
 #search input {
@@ -70,8 +69,7 @@ header nav {
 }
 
 #search button {
-    
-    margin: 30px 50px 10px 0;
+    margin: 10px 0 0 0;
     padding: 5px 8px 5px 8px;
     background: #fff;
     font-size: 14px;
@@ -82,54 +80,95 @@ header nav {
 /* Showcase */
 
 #showcase {
-   
-    width: 80%;
+    width: 90%;
     min-height: 70vh;
     margin-right: auto;
     margin-left: auto;
-    background: url(../css/showcase.jpg) no-repeat;
+    background: url(../css/showcase_2.jpg) no-repeat;
     background-size: 1500px 750px;
     text-align: center;
 }
 
 #showcase h1 {
-    float: right;
-    margin-top: 110px;
-    margin-bottom: 10px;
+    float: left;
+    margin-top: 170px;
+    margin-left: 50px;
     font-family: 'Roboto', sans-serif;
     font-size: 55px;
-    color: #fff;
-}
-
-#showcase button {
-    float: right;
-    padding: 10px 15px 10px 15px;
-    background: #fff;
-    border: 2px solid grey;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    color: #000;
+    color: #333;
 }
 
 /* Boxes */
 
-#boxes {
-    margin-top: 20px;
-    
+#boxes h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+    font-size: 30px;
+    text-align: center;
 }
 
 #boxes .box {
     display: inline-block;
-    
     width: 30%;
-    padding: 20px;
-    background-color: #666;
+    padding: 10px 22px 0 22px;
+    background-color: #fff;
 }
 
 #boxes .box img {
     display: block;
-    margin: auto;
-    width: 300px;
-    background-color: #666;
+    width: 460px;
+}
+
+/* About Me */
+
+#about-me {
+    width: 90%;
+    min-height: 50vh;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    background: url(../css/about_me.jpg) no-repeat;
+    background-size: 1600px 750px;
+    text-align: center;
+}
+
+#about-me h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-top: 60px;
+    color: #fff;
+}
+
+#about-me p {
+    margin: 80px, 0 0 0;
+    padding: 0 100px 0 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+/* Contact */
+
+#contact {
+    width: 90%;
+    min-height: 50vh;
+    margin-right: auto;
+    margin-left: auto;
+    background: url(../css/contact.jpg) no-repeat;
+    background-size: 1600px 750px;
+    text-align: center;
+}
+
+#contact h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-top: 90px;
+    color: #000;
+}
+
+#contact p {
+    padding: 0 80px 0 80px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
 }
