@@ -87,7 +87,7 @@ header nav {
     min-height: 70vh;
     margin-right: auto;
     margin-left: auto;
-    background: url(../css/setup3.jpg) no-repeat;
+    background: url(../css/showcase.jpg) no-repeat;
     background-size: 1500px 750px;
     text-align: center;
 }
@@ -115,8 +115,20 @@ header nav {
 /* Boxes */
 
 #boxes {
+    margin-top: 20px;
+    
+}
+
+#boxes .box {
     display: inline-block;
     
+    width: 30%;
+    padding: 20px;
     background-color: #666;
-    
+}
+
+#boxes .box img {
+    display: block;
+    margin: auto;
+    width: 300px;
 }
